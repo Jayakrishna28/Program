@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "absd",
+            "request": "launch",
+            "mainClass": "absd",
+            "projectName": "JAVA PROGRAM_6cd54beb"
+        },
+        {
+            "type": "java",
+            "name": "Main_Method",
+            "request": "launch",
+            "mainClass": "Main_Method",
+            "projectName": "JAVA PROGRAM_b02e253a"
+        },
+        {
+            "type": "java",
+            "name": "Main_Sample",
+            "request": "launch",
+            "mainClass": "Main_Sample",
+            "projectName": "JAVA PROGRAM_b02e253a"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "JAVA PROGRAM_b02e253a"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperators",
+            "request": "launch",
+            "mainClass": "ArithmeticOperators",
+            "projectName": "JAVA PROGRAM_b02e253a"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JAVA PROGRAM_b02e253a"
+        }
+    ]
+}
