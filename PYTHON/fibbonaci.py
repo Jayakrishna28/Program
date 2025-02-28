@@ -1,6 +1,6 @@
 print(" Kambala Jaya")
 a,b=0,1
-n=100
+n=5
 for i in range(n):
-   print(b)
+   print(a)
    a,b=b,a+b

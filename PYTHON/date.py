@@ -1,4 +1,3 @@
 from datetime import date
-today=date.today
+today=date.today()
 print(today)
-xvvs
