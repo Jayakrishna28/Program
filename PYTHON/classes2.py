@@ -25,3 +25,4 @@ elif(choice==4):
     print(Cal.division())
 else:
     print("Thankyou...")
+end;
